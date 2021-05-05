@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "seaofpirates:items/orange"
+    },
+    "display": {
+        "gui": {
+            "scale": [
+                0.80,
+                0.80,
+                0.80
+            ]
+        }
+    }
+}

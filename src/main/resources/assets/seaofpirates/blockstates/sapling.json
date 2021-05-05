@@ -1,0 +1,13 @@
+{
+    "variants": 
+    {
+        "stage=0,variant=copper": { "model": "sot:sapling_copper" },
+        "stage=1,variant=copper": { "model": "sot:sapling_copper" },
+        
+        "stage=0,variant=aluminium": { "model": "sot:sapling_aluminium" },
+        "stage=1,variant=aluminium": { "model": "sot:sapling_aluminium" },
+		
+		"stage=0,variant=banana": { "model": "sot:sapling_banana" },
+        "stage=1,variant=banana": { "model": "sot:sapling_banana" }
+    }
+}

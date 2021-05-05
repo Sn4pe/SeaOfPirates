@@ -1,0 +1,9 @@
+{
+    "variants": {
+		
+		"check_decay=true,decayable=true,variant=banana": { "model": "sot:leaves_banana" },
+        "check_decay=true,decayable=false,variant=banana": { "model": "sot:leaves_banana" },
+        "check_decay=false,decayable=true,variant=banana": { "model": "sot:leaves_banana" },
+        "check_decay=false,decayable=false,variant=banana": { "model": "sot:leaves_banana" }
+    }
+}

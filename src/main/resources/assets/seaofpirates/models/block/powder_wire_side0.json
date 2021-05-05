@@ -1,0 +1,6 @@
+{
+    "parent": "seaofpirates:block/powder_wire_side",
+    "textures": {
+        "line": "seaofpirates:blocks/powder_line0"
+    }
+}

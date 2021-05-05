@@ -1,0 +1,9 @@
+{
+    "variants": 
+    {
+        "variant=copper": { "model": "sot:planks_copper" },
+        "variant=aluminium": { "model": "sot:planks_aluminium" },
+		"variant=banana": { "model": "sot:planks_banana" }
+
+    }
+}

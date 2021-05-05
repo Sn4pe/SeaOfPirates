@@ -1,7 +1,10 @@
 package com.sn4pe.seaofpirates;
 
+import com.sn4pe.seaofpirates.item.SopItemRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -24,6 +27,13 @@ public class SeaOfPirates
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "seaofpirates";
+    public static ItemGroup TAB_ITEMS = new ItemGroup(MOD_ID) {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(SopItemRegistry.LOGO);
+        }
+    };
 
     public SeaOfPirates() {
         // Register the setup method for modloading
